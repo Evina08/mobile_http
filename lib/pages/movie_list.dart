@@ -11,7 +11,7 @@ class _MovieListState extends State<MovieList> {
   int moviesCount;
   List movies;
   HttpService service;
-  final String imgPath = 'https://image.tmdb.org/t/p/w150/';
+  String imgPath = 'https://image.tmdb.org/t/p/w500/';
 
   Future initialize() async {
     movies = [];
